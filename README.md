@@ -1,33 +1,77 @@
-Event Guest List Manager
-Overview
-A basic web application for managing a guest list for an event using HTML, CSS, and JavaScript.
+# Event Guest List Manager 
 
-Features
-•	Users can add guests by entering name, email, and category.
-•	Each guest entry includes:
-o	Remove button to delete the guest.
-o	RSVP button to toggle between "Attending" and "Not Attending".
-o	Edit button to update name and email.
-•	Maximum of 10 guests allowed. Shows an alert if the limit is reached.
+*Built by **Lauren Ann***
+![Screenshot 2025-06-17 141244](https://github.com/user-attachments/assets/ec87af51-b497-4678-a6ab-b9c48d504f9d)
 
-How It Works
-1.	User fills in the form with guest details.
-2.	On form submission:
-o	A new guest list item is created.
-o	The current date and time are added.
-o	Buttons are added to handle removing, editing, and RSVP toggling.
-3.	All interactions (edit, remove, RSVP) are handled using JavaScript event listeners.
+---
+## Overview  
+This is a dynamic Event Guest List Manager built using HTML, CSS, and JavaScript. It allows users to interact with a form to add, delete, and manage guest details directly in the browser, without needing to refresh the page.
 
-Technologies Used
-•	HTML for the structure of the webpage
-•	CSS for styling and layout
-•	JavaScript for interactivity and logic
+The app was built to practice DOM manipulation, event handling, and responsive UI design.
+---
+
+## Features
+
+### Core Functionality
+- Add guest names through a form input
+- Display each guest in a list on the page
+- Remove a guest with a "Remove" button
+- Limit the guest list to 10 guests (with an alert if limit is exceeded)
+- Toggle RSVP status (Attending / Not Attending)
+
+### Stretch Enhancements
+- Add category labels: **Friend**, **Family**, or **Colleague**
+- Show the timestamp when a guest is added
+- Edit guest names inline
+- Responsive and user-friendly layout
+
+---
+## Project Structure
+```
+event-guest-list-manager/
+├── index.html           
+├── style.css            
+└── src/
+    └── index.js 
+```
+---
+## Tech Stack
+
+- HTML – Structure  
+- CSS – Styling  
+- JavaScript – Interactivity & DOM manipulation
+---
+
+## Submission
+
+Once your project is complete:
+Initialize a Git repository (if not already done):
+```
+git init
+```
+- Add my files
+```
+git add .
+```
+- Commit my changes
+```
+git commit -m "Complete Event Guest List Manager"
+```
+- Push to GitHub
+```
+git remote add origin https://github.com/yourusername/event-guest-list-manager.git
+git push -u origin main
+```
 
 
-File Structure
-•	index.html: Main HTML structure
-•	style.css: Styles for layout and colors
-•	script.js: JavaScript logic for adding and managing guests
 
-Author
-Created by Lauren Ann Murugi
+
+
+
+
+
+
+
+
+
+
